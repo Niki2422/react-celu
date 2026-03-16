@@ -1,0 +1,32 @@
+.hero{
+
+height:70vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+animation:fade 1.5s ease;
+
+}
+
+.hero button{
+
+margin-top:20px;
+padding:12px 24px;
+border:none;
+background:#00c3ff;
+color:white;
+font-size:16px;
+cursor:pointer;
+
+}
+
+@keyframes fade{
+
+from{opacity:0}
+to{opacity:1}
+
+}
